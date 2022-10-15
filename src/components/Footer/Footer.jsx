@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import './Footer.less'
 export default class Footer extends Component {
     constructor(props) {
         super(props);
@@ -8,7 +8,7 @@ export default class Footer extends Component {
 
     render() {
         return (
-            <div>Footer 组件</div>
+            <div className='footer-wrap'>Footer 组件</div>
         )
     }
 }

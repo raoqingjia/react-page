@@ -8,7 +8,7 @@ export default class Header extends Component {
 
     render() {
         return (
-            <div class="header_wrap">Header 组件</div>
+            <div className="header_wrap">Header 组件</div>
         )
     }
 }
